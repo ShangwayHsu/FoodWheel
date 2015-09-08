@@ -20,5 +20,7 @@ public class Main extends Application {
     public static void main(String[] args) {
         launch(args);
         FoodWheel foodWheel = FoodWheel.getInstance();
+        System.out.println(foodWheel.toString());
+        foodWheel.showMenu();
     }
 }

@@ -8,6 +8,10 @@ public class VendorFactory {
     //FIELDS
 
     //CONSTRUCTORS
-    
+
     //METHODS
+    public void makeVendor()
+    {
+
+    }
 }
