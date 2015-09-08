@@ -7,7 +7,7 @@ package sample;
 public class FoodWheel {
    //FIELDS
     private FoodWheel instance;
-    
+
    //CONSTRUCTOR
     private FoodWheel()
     {
@@ -21,7 +21,6 @@ public class FoodWheel {
             instance = new FoodWheel();
         }
         return instance;
-
     }
 
 }
